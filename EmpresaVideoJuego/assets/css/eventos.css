@@ -1,0 +1,87 @@
+.navbar {
+    background-color: #000000 !important;
+}
+
+.nav-link {
+    color: #F2F2F2 !important;
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+}
+
+.nav-link:hover {
+    color: #FF00FF !important;
+}
+
+.card-body {
+    background-color: #000000; 
+}
+
+
+/* Tamaño uniforme de imágenes en tarjetas */
+.card-img-top {
+    height: 420px;
+    object-fit: cover;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Sombra y efecto de hover en tarjetas */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.card-footer small {
+    color:#FF00FF !important;
+}
+
+h1, h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 4px rgba(0, 255, 255, 0.3);
+}
+
+/* Estilo general para los enlaces del footer */
+.footer-contacto a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* GitHub */
+.footer-contacto a[href*="github"]:hover {
+    color: #000000 !important;
+}
+
+/* Instagram */
+.footer-contacto a[href*="instagram"]:hover {
+    background-image: linear-gradient(45deg, 
+        #405de6, #5851db, #833ab4, #c13584, 
+        #e1306c, #fd1d1d, #f56040, #f77737, 
+        #fcaf45, #ffdc80);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    -webkit-text-fill-color: transparent;
+}
+
+/* LinkedIn */
+.footer-contacto a[href*="linkedin"]:hover {
+    color: #0077b5 !important;
+}
+
+/* Ícono de audio interactivo */
+#toggle-audio {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+#toggle-audio:hover {
+    color: cyan;
+}
